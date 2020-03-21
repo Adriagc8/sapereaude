@@ -1,0 +1,17 @@
+body{
+    background-image: url(../imatges/escueladeatenas.jpg);
+}
+div.polariod{
+    margin-top: 50px;
+    width: 18%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.19), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    background-color:rgb(206, 209, 179);
+    border-radius: 5px;
+}
+div.polariod p{
+    padding: 5%;
+    font-size:1em;
+    font-family: 'Righteous', cursive;
+    color: black;
+}

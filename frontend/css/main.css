@@ -1,0 +1,49 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.main{
+    /*Take the image from the folder*/
+    background-image: url("/frontend/imatges/escueladeatenas.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9%;
+
+}
+.recuadro h1{
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 4.5em;
+    display: inline-block;
+}
+
+/*-------------------------------
+            BUTTON
+------------------------------*/
+.gta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    
+}
+.gta button{
+    width: 20%;
+    display: inline-block;
+    background-color:rgb(86, 104, 98);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.19), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.gta button span{
+    padding: -20px;
+    color: white;
+    font-family: 'Righteos', cursive;
+    font-size: 4.5em;
+}
